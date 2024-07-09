@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Lato", sans-serif;
+}
+
+header {
+   background: rgba(229, 84, 115, 0.1);
+}
+
+.banner-container {
+   padding-top: 70px;
+   display: flex;
+   width: 80%;
+   margin: 0 auto;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.banner-texts {
+   width: 44%;
+}
+
+.banner-texts h1 {
+   font-size: 65px;
+   font-weight: 900;
+   margin-bottom: 20px;
+}
+
+.banner-texts p {
+   font-size: 16px;
+   margin-bottom: 22px;
+   color: rgba(39, 39, 39, 0.6);
+}
+
+ button {
+   background: rgb(229, 84, 115);
+   border: none;
+   color: white;
+   padding: 15px 20px;
+   border-radius: 8px;
+   font-weight: 700;
+   cursor: pointer;
+}
+
+.banner-img  {
+   width: 40%;
+}
+
+.banner-img img {
+   width: 100%;
+   margin-bottom: -2px;
+}
+
+.width {
+   width: 80%;
+   margin: 0 auto 100px;
+}
+
+.featured h3 {
+   font-size: 45px;
+   font-weight: 800;
+   margin: 100px auto 20px;
+   text-align: center;
+}
+
+.featured > p {
+   color: rgba(39, 39, 39, 0.6);
+   text-align: center;
+   width: 50%;
+   margin: 0 auto 40px;
+}
+
+.featured-flowers-container {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.featured-flower-1, .featured-flower-2, .featured-flower-3 {
+   display: flex;
+   justify-content: center;
+   border-radius: 300px 300px 0px 0px;
+}
+
+.featured-flower-1 {
+   padding: 30px 30px 0;
+   background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-flower-2 {
+   padding: 41px 10px;
+   background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-flower-3 {
+   padding: 22px 30px 0;
+   background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-flower-3 img {
+   width: 92%;
+}
+
+.featured-flowers p {
+   text-decoration: underline;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.icons {
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   background: rgba(39, 39, 39, 0.05);
+   padding: 50px;
+   border-radius: 8px;
+}
+
+.icon p {
+   margin-top: 10px;
+   color: rgba(39, 39, 39, 0.6);
+   font-weight: 600;
+}
+
+.pink {
+   color: rgb(229, 84, 115);
+}
+
+.hot-deal {
+   padding: 50px;
+   background: rgba(229, 84, 115, 0.05);
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.deal-texts  {
+   width: 40%;
+   text-align: center;
+}
+
+.deal-texts h2 {
+   font-size: 40px;
+   font-weight: 900;
+   margin-bottom: 30px;
+}
+
+.deal-texts p {
+   color: rgba(39, 39, 39, 0.6);
+   font-weight: 600;
+   margin-bottom: 40px;
+}
+
+.insta h2 {
+   font-size: 40px;
+   text-align: center;
+   margin: 100px 0 20px;
+}
+
+.insta p {
+   color: rgba(39, 39, 39, 0.6);
+   font-weight: 600;
+   width: 40%;
+   margin: 0 auto 50px;
+   text-align: center;
+}
+
+.insta-pics {
+   display: flex;
+   gap: 20px;
+}
+
+.insta-pic img {
+   border-radius: 8px;
+   width: 100%;
+}
+
+.newsletter {
+   background: url(images/latest-deals-bg.png);
+   padding: 120px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.newsletter-container h1 {
+   font-size: 40px;
+   font-weight: 800;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.newsletter-container p {
+   color: rgba(39, 39, 39, 0.6);
+   font-weight: 600;
+   text-align: center;
+   font-size: 20px;
+   margin-bottom: 30px;
+}
+
+.input {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.input input {
+   border: none;
+   padding: 15px 280px 15px 15px;
+   border-radius: 5px;
+}
+
+.input button {
+   border-radius: 5px;
+   padding: 15px 20px;
+}
+
+footer {
+   background-color: black;
+   color: aliceblue;
+   padding: 100px;
+   text-align: center;
+}
+
+footer h1 {
+   font-size: 40px;
+   font-weight: 800;
+}
+
+footer > p {
+   width: 45%;
+   margin: 20px auto;
+}
+
+.copyright-content {
+   margin-top: 40px;
+   color: gray;
+}
+
